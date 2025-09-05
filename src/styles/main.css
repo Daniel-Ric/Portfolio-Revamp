@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+:root { --accent: #00e5ff; --muted: #b3c0c3; }
+html, body, #app { height: 100%; background-color: #000; }
+* { -webkit-tap-highlight-color: transparent; }
