@@ -85,13 +85,60 @@ const projects = [
   },
   {
     group: 'closed',
+    title: 'CubeStats API',
+    desc: 'Go based API to deliver real-time cube statistics and queryable leaderboards.',
+    tags: ['Go', 'SQL'],
+    live: null,
+    source: null
+  },
+  {
+    group: 'closed',
+    title: 'Monitoring API',
+    desc: 'JavaScript based API to communicate with RakNet and tmux to monitor my services and some of the largest Bedrock Edition servers in real time.',
+    tags: ['JavaScript'],
+    live: 'https://status.spindexgfx.com/',
+    source: null
+  },
+  {
+    group: 'closed',
+    title: 'Zeqa Cosmetics API',
+    desc: 'An API that provides and communicates with Zeqa`s (ap.zeqa.net) HTTP endpoints to fetch the latest cosmetic and player data.',
+    tags: ['JavaScript', 'HTTPS' ],
+    live: null,
+    source: null
+  },
+  {
+    group: 'open',
+    title: 'Zeqa Cosmetics Website (ShardHub)',
+    desc: 'A website that has tools for the Zeqa Bedrock Network — item values, bank, trade comparison, and player profiles.',
+    tags: ['JavaScript', 'HTTPS' ],
+    live: 'https://zeqa.spindexgfx.com/',
+    source: null
+  },
+  {
+    group: 'closed',
     title: 'View-MarketplaceNET Bot',
     desc: 'Marketplace alerts and account utilities across Xbox Live + PlayFab, integrated with Discord slash commands and rate-limit aware persistence.',
     tags: ['JavaScript', 'SQL', 'Discord API', 'PlayFab API', 'Xbox Live API'],
     live: 'https://discord.com/oauth2/authorize?client_id=1302624577943506985&scope=bot+applications.commands&permissions=8',
     source: null
   },
-
+  {
+    group: 'closed',
+    title: 'View-MarketplaceNET Website',
+    desc: 'The entire Minecraft Bedrock Edition marketplace on a website ^^.',
+    tags: ['JavaScript', 'Vue3', 'TailwindCSS', 'PlayFab API', 'Xbox Live API'],
+    live: 'https://view-marketplace.net/',
+    source: null
+  },
+  {
+    group: 'closed',
+    title: 'View-MarketplaceNET Redirect Service',
+    desc: 'open Minecraft Marketplace offers and Dressing Room Offers via URL links fully dynamically.',
+    tags: ['JavaScript', 'Express', 'HTTP'],
+    live: null,
+    source: null
+  },
   {
     group: 'open',
     title: 'PlayFab Bedrock API',
@@ -102,7 +149,7 @@ const projects = [
   },
   {
     group: 'open',
-    title: 'Roadmap API (Bedrock)',
+    title: 'Roadmap API (Hive/CubeCraft Bedrock)',
     desc: 'Small Go service that unifies a public roadmap from Notion and XenForo. Minimal endpoints, simple caching, and straightforward deployment.',
     tags: ['Go', 'Notion API', 'XenForo API'],
     live: null,
